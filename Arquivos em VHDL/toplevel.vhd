@@ -11,7 +11,41 @@ port (
     pc_out : out std_logic_vector(31 downto 0);
     instruction_out : out std_logic_vector(31 downto 0);
     ula_result_out : out std_logic_vector(31 downto 0);
-    reg_write_data_out : out std_logic_vector(31 downto 0)
+    reg_write_data_out : out std_logic_vector(31 downto 0);
+    
+    -- Saídas de todos os registradores para visualização no waveform
+    reg_zero_out : out std_logic_vector(31 downto 0); -- x0
+    reg_ra_out : out std_logic_vector(31 downto 0);   -- x1
+    reg_sp_out : out std_logic_vector(31 downto 0);   -- x2
+    reg_gp_out : out std_logic_vector(31 downto 0);   -- x3
+    reg_tp_out : out std_logic_vector(31 downto 0);   -- x4
+    reg_t0_out : out std_logic_vector(31 downto 0);   -- x5
+    reg_t1_out : out std_logic_vector(31 downto 0);   -- x6
+    reg_t2_out : out std_logic_vector(31 downto 0);   -- x7
+    reg_s0_out : out std_logic_vector(31 downto 0);   -- x8
+    reg_s1_out : out std_logic_vector(31 downto 0);   -- x9
+    reg_a0_out : out std_logic_vector(31 downto 0);   -- x10
+    reg_a1_out : out std_logic_vector(31 downto 0);   -- x11
+    reg_a2_out : out std_logic_vector(31 downto 0);   -- x12
+    reg_a3_out : out std_logic_vector(31 downto 0);   -- x13
+    reg_a4_out : out std_logic_vector(31 downto 0);   -- x14
+    reg_a5_out : out std_logic_vector(31 downto 0);   -- x15
+    reg_a6_out : out std_logic_vector(31 downto 0);   -- x16
+    reg_a7_out : out std_logic_vector(31 downto 0);   -- x17
+    reg_s2_out : out std_logic_vector(31 downto 0);   -- x18
+    reg_s3_out : out std_logic_vector(31 downto 0);   -- x19
+    reg_s4_out : out std_logic_vector(31 downto 0);   -- x20
+    reg_s5_out : out std_logic_vector(31 downto 0);   -- x21
+    reg_s6_out : out std_logic_vector(31 downto 0);   -- x22
+    reg_s7_out : out std_logic_vector(31 downto 0);   -- x23
+    reg_s8_out : out std_logic_vector(31 downto 0);   -- x24
+    reg_s9_out : out std_logic_vector(31 downto 0);   -- x25
+    reg_s10_out : out std_logic_vector(31 downto 0);  -- x26
+    reg_s11_out : out std_logic_vector(31 downto 0);  -- x27
+    reg_t3_out : out std_logic_vector(31 downto 0);   -- x28
+    reg_t4_out : out std_logic_vector(31 downto 0);   -- x29
+    reg_t5_out : out std_logic_vector(31 downto 0);   -- x30
+    reg_t6_out : out std_logic_vector(31 downto 0)    -- x31
 );
 end entity TopLevel;
 
@@ -41,7 +75,41 @@ architecture Behavioral of TopLevel is
             select_rd : in std_logic_vector(4 downto 0);
             write_data : in std_logic_vector(31 downto 0);
             output_rs1 : out std_logic_vector(31 downto 0);
-            output_rs2 : out std_logic_vector(31 downto 0)
+            output_rs2 : out std_logic_vector(31 downto 0);
+            
+            -- Sinais de todos os registradores
+            reg_zero_out : out std_logic_vector(31 downto 0);
+            reg_ra_out : out std_logic_vector(31 downto 0);
+            reg_sp_out : out std_logic_vector(31 downto 0);
+            reg_gp_out : out std_logic_vector(31 downto 0);
+            reg_tp_out : out std_logic_vector(31 downto 0);
+            reg_t0_out : out std_logic_vector(31 downto 0);
+            reg_t1_out : out std_logic_vector(31 downto 0);
+            reg_t2_out : out std_logic_vector(31 downto 0);
+            reg_s0_out : out std_logic_vector(31 downto 0);
+            reg_s1_out : out std_logic_vector(31 downto 0);
+            reg_a0_out : out std_logic_vector(31 downto 0);
+            reg_a1_out : out std_logic_vector(31 downto 0);
+            reg_a2_out : out std_logic_vector(31 downto 0);
+            reg_a3_out : out std_logic_vector(31 downto 0);
+            reg_a4_out : out std_logic_vector(31 downto 0);
+            reg_a5_out : out std_logic_vector(31 downto 0);
+            reg_a6_out : out std_logic_vector(31 downto 0);
+            reg_a7_out : out std_logic_vector(31 downto 0);
+            reg_s2_out : out std_logic_vector(31 downto 0);
+            reg_s3_out : out std_logic_vector(31 downto 0);
+            reg_s4_out : out std_logic_vector(31 downto 0);
+            reg_s5_out : out std_logic_vector(31 downto 0);
+            reg_s6_out : out std_logic_vector(31 downto 0);
+            reg_s7_out : out std_logic_vector(31 downto 0);
+            reg_s8_out : out std_logic_vector(31 downto 0);
+            reg_s9_out : out std_logic_vector(31 downto 0);
+            reg_s10_out : out std_logic_vector(31 downto 0);
+            reg_s11_out : out std_logic_vector(31 downto 0);
+            reg_t3_out : out std_logic_vector(31 downto 0);
+            reg_t4_out : out std_logic_vector(31 downto 0);
+            reg_t5_out : out std_logic_vector(31 downto 0);
+            reg_t6_out : out std_logic_vector(31 downto 0)
         );
     end component;
 
@@ -123,22 +191,25 @@ architecture Behavioral of TopLevel is
     signal branch, memRead, memToReg, memWrite, aluSrc, regWrite : std_logic;
     signal aluOP : std_logic_vector(2 downto 0);
     signal is_LUI, is_AUIPC, is_JALX, is_JALR : std_logic;
+    
+    -- Novo sinal para controle de branch
+    signal branch_taken : std_logic;
 
 begin
-    -- Instancia��o do PC
+    -- Instanciação do PC
     pc_inst: pc port map (
         clk => clk,
         input => pc_input,
         output => pc_output
     );
 
-    -- Instancia��o da ROM
+    -- Instanciação da ROM
     rom_inst: rom port map (
         address => pc_output(11 downto 2),
         dataout => instruction
     );
 
-    -- Instancia��o do Banco de Registradores
+    -- Instanciação do Banco de Registradores com os sinais adicionais
     breg_inst: breg port map (
         clk => clk,
         writeEnable => regWrite,
@@ -147,7 +218,41 @@ begin
         select_rd => instruction(11 downto 7),
         write_data => reg_write_data,
         output_rs1 => rs1_data,
-        output_rs2 => rs2_data
+        output_rs2 => rs2_data,
+        
+        -- Conectando todos os registradores às saídas
+        reg_zero_out => reg_zero_out,
+        reg_ra_out => reg_ra_out,
+        reg_sp_out => reg_sp_out,
+        reg_gp_out => reg_gp_out,
+        reg_tp_out => reg_tp_out,
+        reg_t0_out => reg_t0_out,
+        reg_t1_out => reg_t1_out,
+        reg_t2_out => reg_t2_out,
+        reg_s0_out => reg_s0_out,
+        reg_s1_out => reg_s1_out,
+        reg_a0_out => reg_a0_out,
+        reg_a1_out => reg_a1_out,
+        reg_a2_out => reg_a2_out,
+        reg_a3_out => reg_a3_out,
+        reg_a4_out => reg_a4_out,
+        reg_a5_out => reg_a5_out,
+        reg_a6_out => reg_a6_out,
+        reg_a7_out => reg_a7_out,
+        reg_s2_out => reg_s2_out,
+        reg_s3_out => reg_s3_out,
+        reg_s4_out => reg_s4_out,
+        reg_s5_out => reg_s5_out,
+        reg_s6_out => reg_s6_out,
+        reg_s7_out => reg_s7_out,
+        reg_s8_out => reg_s8_out,
+        reg_s9_out => reg_s9_out,
+        reg_s10_out => reg_s10_out,
+        reg_s11_out => reg_s11_out,
+        reg_t3_out => reg_t3_out,
+        reg_t4_out => reg_t4_out,
+        reg_t5_out => reg_t5_out,
+        reg_t6_out => reg_t6_out
     );
 
     -- Gerador de imediato
@@ -173,7 +278,7 @@ begin
         zero => ula_zero
     );
 
-    -- Mem�ria de Dados (RAM)
+    -- Memória de Dados (RAM)
     ram_inst: ram port map (
         clock => clk,
         we => memWrite,
@@ -206,19 +311,22 @@ begin
         ULA_control => ula_ctrl
     );
 
-    -- L�gica para pr�ximo PC
-    process(clk, reset)
-    begin
-        if reset = '1' then
-            pc_input <= (others => '0');
-        elsif rising_edge(clk) then
-            if (branch = '1' and ula_zero = '1') then
-                pc_input <= std_logic_vector(unsigned(pc_output) + unsigned(immediate));
-            else
-                pc_input <= std_logic_vector(unsigned(pc_output) + 4);
-            end if;
-        end if;
-    end process;
+    -- Lógica para determinar se um branch deve ser tomado
+    branch_taken <= '1' when (branch = '1' and 
+                             ((instruction(14 downto 12) = "000" and ula_zero = '1') or           -- BEQ
+                              (instruction(14 downto 12) = "001" and ula_zero = '0') or           -- BNE
+                              (instruction(14 downto 12) = "100" and ula_result(0) = '1') or      -- BLT
+                              (instruction(14 downto 12) = "101" and ula_result(0) = '0') or      -- BGE
+                              (instruction(14 downto 12) = "110" and ula_result(0) = '1') or      -- BLTU
+                              (instruction(14 downto 12) = "111" and ula_result(0) = '0')))       -- BGEU
+                    else '0';
+
+    -- Lógica para próximo PC
+    pc_input <= (others => '0') when reset = '1' else
+              std_logic_vector(unsigned(rs1_data) + unsigned(immediate)) when (is_JALR = '1') else
+              std_logic_vector(unsigned(pc_output) + unsigned(immediate)) when (is_JALX = '1') else
+              std_logic_vector(unsigned(pc_output) + unsigned(immediate)) when branch_taken = '1' else
+              std_logic_vector(unsigned(pc_output) + 4);
 
     -- Multiplexador para escrita no banco de registradores
     reg_write_data <= mem_data_out when memToReg = '1' else ula_result;
