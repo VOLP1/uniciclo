@@ -1,0 +1,118 @@
+{C:/Users/Eduli/OAC-RiscVUniciclo-main/Arquivos em VHDL/toplevel.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:\Users\Eduli\OAC-RiscVUniciclo-main\Arquivos em VHDL\toplevel.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity TopLevel
+-- Compiling architecture Behavioral of TopLevel
+
+} {} {}} {C:/Users/Eduli/OAC-RiscVUniciclo-main/Arquivos em VHDL/Gerador de imediatos.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:\Users\Eduli\OAC-RiscVUniciclo-main\Arquivos em VHDL\Gerador de imediatos.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity genImm32
+-- Compiling architecture gerador of genImm32
+
+} {} {}} {C:/Users/Eduli/OAC-RiscVUniciclo-main/Arquivos em VHDL/mux_2to1_5bits.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:\Users\Eduli\OAC-RiscVUniciclo-main\Arquivos em VHDL\mux_2to1_5bits.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity mux_2to1_5bits
+-- Compiling architecture arc of mux_2to1_5bits
+
+} {} {}} {C:/Users/Eduli/OAC-RiscVUniciclo-main/Arquivos em VHDL/mux_2to1.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:\Users\Eduli\OAC-RiscVUniciclo-main\Arquivos em VHDL\mux_2to1.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity mux_2to1
+-- Compiling architecture arc of mux_2to1
+
+} {} {}} {C:/Users/Eduli/OAC-RiscVUniciclo-main/Arquivos em VHDL/ULA_controle.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:\Users\Eduli\OAC-RiscVUniciclo-main\Arquivos em VHDL\ULA_controle.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity controle_ULA
+-- Compiling architecture arc of controle_ULA
+
+} {} {}} {C:/Users/Eduli/OAC-RiscVUniciclo-main/Arquivos em VHDL/ULA.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:\Users\Eduli\OAC-RiscVUniciclo-main\Arquivos em VHDL\ULA.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ulaRV
+-- Compiling architecture arc_ula of ulaRV
+
+} {} {}} {C:/Users/Eduli/OAC-RiscVUniciclo-main/Arquivos em VHDL/and_gate.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:\Users\Eduli\OAC-RiscVUniciclo-main\Arquivos em VHDL\and_gate.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity and_gate
+-- Compiling architecture arc_and of and_gate
+
+} {} {}} {C:/Users/Eduli/OAC-RiscVUniciclo-main/Arquivos em VHDL/banco_regs.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:\Users\Eduli\OAC-RiscVUniciclo-main\Arquivos em VHDL\banco_regs.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity breg
+-- Compiling architecture arc_breg of breg
+
+} {} {}} {C:/Users/Eduli/OAC-RiscVUniciclo-main/Arquivos em VHDL/pc.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:\Users\Eduli\OAC-RiscVUniciclo-main\Arquivos em VHDL\pc.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity pc
+-- Compiling architecture arc_pc of pc
+
+} {} {}} {C:/Users/Eduli/OAC-RiscVUniciclo-main/Arquivos em VHDL/blocoControle.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:\Users\Eduli\OAC-RiscVUniciclo-main\Arquivos em VHDL\blocoControle.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity bloco_controle
+-- Compiling architecture arc of bloco_controle
+
+} {} {}} {C:/Users/Eduli/OAC-RiscVUniciclo-main/Arquivos em VHDL/rom.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:\Users\Eduli\OAC-RiscVUniciclo-main\Arquivos em VHDL\rom.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity rom
+-- Compiling architecture arc of rom
+
+} {} {}} {C:/Users/Eduli/OAC-RiscVUniciclo-main/Arquivos em VHDL/adder.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:\Users\Eduli\OAC-RiscVUniciclo-main\Arquivos em VHDL\adder.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity adder_32_bit
+-- Compiling architecture arc_add of adder_32_bit
+
+} {} {}} {C:/Users/Eduli/OAC-RiscVUniciclo-main/Arquivos em VHDL/ram.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:\Users\Eduli\OAC-RiscVUniciclo-main\Arquivos em VHDL\ram.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ram
+-- Compiling architecture arc of ram
+
+} {} {}}

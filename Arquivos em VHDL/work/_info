@@ -1,0 +1,676 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Eduli/RISC-V-Monocycle-main
+Eadder_32_bit
+Z0 w1740347457
+Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 dC:/Users/Eduli/OAC-RiscVUniciclo-main/Arquivos em VHDL
+Z5 8C:\Users\Eduli\OAC-RiscVUniciclo-main\Arquivos em VHDL\adder.vhd
+Z6 FC:\Users\Eduli\OAC-RiscVUniciclo-main\Arquivos em VHDL\adder.vhd
+l0
+L5
+VH?[4jH9OgDC3S>DISe7]11
+!s100 XRGd8JKZ;PJVg8A[Jc?l]1
+Z7 OV;C;10.5b;63
+33
+Z8 !s110 1740422067
+!i10b 1
+Z9 !s108 1740422067.000000
+Z10 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:\Users\Eduli\OAC-RiscVUniciclo-main\Arquivos em VHDL\adder.vhd|
+Z11 !s107 C:\Users\Eduli\OAC-RiscVUniciclo-main\Arquivos em VHDL\adder.vhd|
+!i113 1
+Z12 o-work work -2008 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Aarc_add
+R1
+R2
+R3
+DEx4 work 12 adder_32_bit 0 22 H?[4jH9OgDC3S>DISe7]11
+l13
+L12
+VS2cm18VQ]8N=<GJm3bKDY0
+!s100 d`o:;bZh6EK^U5lBZ1<aG1
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Eand_gate
+R0
+R1
+R2
+R3
+R4
+Z14 8C:\Users\Eduli\OAC-RiscVUniciclo-main\Arquivos em VHDL\and_gate.vhd
+Z15 FC:\Users\Eduli\OAC-RiscVUniciclo-main\Arquivos em VHDL\and_gate.vhd
+l0
+L6
+VLRPmVXh0g33FG5GR?j;eL3
+!s100 i=6D7_7`S@EGBW394[:mD3
+R7
+33
+R8
+!i10b 1
+R9
+Z16 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:\Users\Eduli\OAC-RiscVUniciclo-main\Arquivos em VHDL\and_gate.vhd|
+Z17 !s107 C:\Users\Eduli\OAC-RiscVUniciclo-main\Arquivos em VHDL\and_gate.vhd|
+!i113 1
+R12
+R13
+Aarc_and
+R1
+R2
+R3
+DEx4 work 8 and_gate 0 22 LRPmVXh0g33FG5GR?j;eL3
+l15
+L14
+VAAM8W:;=HMY^@J;lDLc@@1
+!s100 N;1<:;SUCNTD`dSX8>[8z1
+R7
+33
+R8
+!i10b 1
+R9
+R16
+R17
+!i113 1
+R12
+R13
+Ebloco_controle
+R0
+R1
+R2
+R3
+R4
+Z18 8C:\Users\Eduli\OAC-RiscVUniciclo-main\Arquivos em VHDL\blocoControle.vhd
+Z19 FC:\Users\Eduli\OAC-RiscVUniciclo-main\Arquivos em VHDL\blocoControle.vhd
+l0
+L6
+VYOVja_52<nkRC^3nXm^c71
+!s100 ?LRU7n3IFXj2`4d==RcB41
+R7
+33
+R8
+!i10b 1
+R9
+Z20 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:\Users\Eduli\OAC-RiscVUniciclo-main\Arquivos em VHDL\blocoControle.vhd|
+Z21 !s107 C:\Users\Eduli\OAC-RiscVUniciclo-main\Arquivos em VHDL\blocoControle.vhd|
+!i113 1
+R12
+R13
+Aarc
+R1
+R2
+R3
+Z22 DEx4 work 14 bloco_controle 0 22 YOVja_52<nkRC^3nXm^c71
+l38
+L23
+VhbV`D3hljSgl2N:n8:=IG2
+!s100 jNWC>L^OMnc=dE@aHA:Qd0
+R7
+33
+R8
+!i10b 1
+R9
+R20
+R21
+!i113 1
+R12
+R13
+Ebreg
+R0
+R1
+R2
+R3
+R4
+Z23 8C:\Users\Eduli\OAC-RiscVUniciclo-main\Arquivos em VHDL\banco_regs.vhd
+Z24 FC:\Users\Eduli\OAC-RiscVUniciclo-main\Arquivos em VHDL\banco_regs.vhd
+l0
+L5
+VjE5ANd0mF=Hl=FEoc@D=A2
+!s100 b<TV5NUG7jTHA>jFZcS5`1
+R7
+33
+R8
+!i10b 1
+R9
+Z25 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:\Users\Eduli\OAC-RiscVUniciclo-main\Arquivos em VHDL\banco_regs.vhd|
+Z26 !s107 C:\Users\Eduli\OAC-RiscVUniciclo-main\Arquivos em VHDL\banco_regs.vhd|
+!i113 1
+R12
+R13
+Aarc_breg
+R1
+R2
+R3
+Z27 DEx4 work 4 breg 0 22 jE5ANd0mF=Hl=FEoc@D=A2
+l24
+L18
+VU3e0^T6U>RhUL1Fj>cd_70
+!s100 bAb1?[g]IVz`^Y@bz8=mC3
+R7
+33
+R8
+!i10b 1
+R9
+R25
+R26
+!i113 1
+R12
+R13
+Econtrole_ula
+R0
+R1
+R2
+R3
+R4
+Z28 8C:\Users\Eduli\OAC-RiscVUniciclo-main\Arquivos em VHDL\ULA_controle.vhd
+Z29 FC:\Users\Eduli\OAC-RiscVUniciclo-main\Arquivos em VHDL\ULA_controle.vhd
+l0
+L6
+V<LaaT8RhG1m4838oW>G9N0
+!s100 ^bWH<zU98K`?62W^PO2;20
+R7
+33
+Z30 !s110 1740422068
+!i10b 1
+Z31 !s108 1740422068.000000
+Z32 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:\Users\Eduli\OAC-RiscVUniciclo-main\Arquivos em VHDL\ULA_controle.vhd|
+Z33 !s107 C:\Users\Eduli\OAC-RiscVUniciclo-main\Arquivos em VHDL\ULA_controle.vhd|
+!i113 1
+R12
+R13
+Aarc
+R1
+R2
+R3
+Z34 DEx4 work 12 controle_ula 0 22 <LaaT8RhG1m4838oW>G9N0
+l22
+L15
+V7KLEcLF1MX[1eRLbl>`HK3
+!s100 P:fAdN6aCa;c17azj0HQm3
+R7
+33
+R30
+!i10b 1
+R31
+R32
+R33
+!i113 1
+R12
+R13
+Egenimm32
+R0
+R1
+R2
+R3
+R4
+Z35 8C:\Users\Eduli\OAC-RiscVUniciclo-main\Arquivos em VHDL\Gerador de imediatos.vhd
+Z36 FC:\Users\Eduli\OAC-RiscVUniciclo-main\Arquivos em VHDL\Gerador de imediatos.vhd
+l0
+L6
+V:?2:Bjk`N^4TOPo:ih>ih1
+!s100 aUB]af;<V5=GILEXcF8jK3
+R7
+33
+R8
+!i10b 1
+R9
+Z37 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:\Users\Eduli\OAC-RiscVUniciclo-main\Arquivos em VHDL\Gerador de imediatos.vhd|
+Z38 !s107 C:\Users\Eduli\OAC-RiscVUniciclo-main\Arquivos em VHDL\Gerador de imediatos.vhd|
+!i113 1
+R12
+R13
+Agerador
+R1
+R2
+R3
+DEx4 work 8 genimm32 0 22 :?2:Bjk`N^4TOPo:ih>ih1
+l19
+L13
+VQ7GEMBPdKo9=84XlO`@FD1
+!s100 BTO?A=TM8c3O5A5J17Iea0
+R7
+33
+R30
+!i10b 1
+R9
+R37
+R38
+!i113 1
+R12
+R13
+Emux_2to1
+R0
+R1
+R2
+R3
+R4
+Z39 8C:\Users\Eduli\OAC-RiscVUniciclo-main\Arquivos em VHDL\mux_2to1.vhd
+Z40 FC:\Users\Eduli\OAC-RiscVUniciclo-main\Arquivos em VHDL\mux_2to1.vhd
+l0
+L5
+VhZz>J10AQFMbEPPFgJ>XX0
+!s100 h[a0L;[SUF@?HS_CJiaQ;2
+R7
+33
+R30
+!i10b 1
+R31
+Z41 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:\Users\Eduli\OAC-RiscVUniciclo-main\Arquivos em VHDL\mux_2to1.vhd|
+Z42 !s107 C:\Users\Eduli\OAC-RiscVUniciclo-main\Arquivos em VHDL\mux_2to1.vhd|
+!i113 1
+R12
+R13
+Aarc
+R1
+R2
+R3
+DEx4 work 8 mux_2to1 0 22 hZz>J10AQFMbEPPFgJ>XX0
+l15
+L14
+V1mMc:oZ9dTWaC<=4Hleaj1
+!s100 NcFHmES_olF1[gM;KA_6V3
+R7
+33
+R30
+!i10b 1
+R31
+R41
+R42
+!i113 1
+R12
+R13
+Emux_2to1_5bits
+R0
+R1
+R2
+R3
+R4
+Z43 8C:\Users\Eduli\OAC-RiscVUniciclo-main\Arquivos em VHDL\mux_2to1_5bits.vhd
+Z44 FC:\Users\Eduli\OAC-RiscVUniciclo-main\Arquivos em VHDL\mux_2to1_5bits.vhd
+l0
+L5
+VJ9WeL8>g4SZZVa2:O`36Y0
+!s100 IHmeXYAc=7F0bL[_j7N^e3
+R7
+33
+R30
+!i10b 1
+R31
+Z45 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:\Users\Eduli\OAC-RiscVUniciclo-main\Arquivos em VHDL\mux_2to1_5bits.vhd|
+Z46 !s107 C:\Users\Eduli\OAC-RiscVUniciclo-main\Arquivos em VHDL\mux_2to1_5bits.vhd|
+!i113 1
+R12
+R13
+Aarc
+R1
+R2
+R3
+DEx4 work 14 mux_2to1_5bits 0 22 J9WeL8>g4SZZVa2:O`36Y0
+l15
+L14
+V0T:YZQgbYCMQCZUfK?o9S1
+!s100 E:`T2gz6?8X2V1m22L]7n1
+R7
+33
+R30
+!i10b 1
+R31
+R45
+R46
+!i113 1
+R12
+R13
+Epc
+R0
+R1
+R2
+R3
+R4
+Z47 8C:\Users\Eduli\OAC-RiscVUniciclo-main\Arquivos em VHDL\pc.vhd
+Z48 FC:\Users\Eduli\OAC-RiscVUniciclo-main\Arquivos em VHDL\pc.vhd
+l0
+L5
+VETJ[mcCiM10eO_L3RKTo>2
+!s100 k4QCFJY@U7SK8K79LoO213
+R7
+33
+R30
+!i10b 1
+R31
+Z49 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:\Users\Eduli\OAC-RiscVUniciclo-main\Arquivos em VHDL\pc.vhd|
+Z50 !s107 C:\Users\Eduli\OAC-RiscVUniciclo-main\Arquivos em VHDL\pc.vhd|
+!i113 1
+R12
+R13
+Aarc_pc
+R1
+R2
+R3
+Z51 DEx4 work 2 pc 0 22 ETJ[mcCiM10eO_L3RKTo>2
+l15
+L13
+Vl^a465KZ:k46?Xl3GMzmW2
+!s100 SY<:4nO@1Mmo>lVSJQLQG2
+R7
+33
+R30
+!i10b 1
+R31
+R49
+R50
+!i113 1
+R12
+R13
+Eram
+R0
+R1
+R2
+R3
+R4
+Z52 8C:\Users\Eduli\OAC-RiscVUniciclo-main\Arquivos em VHDL\ram.vhd
+Z53 FC:\Users\Eduli\OAC-RiscVUniciclo-main\Arquivos em VHDL\ram.vhd
+l0
+L7
+VgI^VD74IbhH7jI6bk4JM>2
+!s100 Wn2Th;]zbZjhXG0enffSh3
+R7
+33
+R30
+!i10b 1
+R31
+Z54 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:\Users\Eduli\OAC-RiscVUniciclo-main\Arquivos em VHDL\ram.vhd|
+Z55 !s107 C:\Users\Eduli\OAC-RiscVUniciclo-main\Arquivos em VHDL\ram.vhd|
+!i113 1
+R12
+R13
+Aarc
+R1
+R2
+R3
+Z56 DEx4 work 3 ram 0 22 gI^VD74IbhH7jI6bk4JM>2
+l38
+L17
+VKe51`VL:_8ae^iJdG>jIT3
+!s100 5Q_ZUk:8Czz`eMHWT42350
+R7
+33
+R30
+!i10b 1
+R31
+R54
+R55
+!i113 1
+R12
+R13
+Erom
+R0
+R1
+R2
+R3
+R4
+Z57 8C:\Users\Eduli\OAC-RiscVUniciclo-main\Arquivos em VHDL\rom.vhd
+Z58 FC:\Users\Eduli\OAC-RiscVUniciclo-main\Arquivos em VHDL\rom.vhd
+l0
+L6
+VV4aF:VZ;bfGF92:PQ8jh:2
+!s100 LkL@RMHTTa]HEAn[;SU4d1
+R7
+33
+R30
+!i10b 1
+R31
+Z59 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:\Users\Eduli\OAC-RiscVUniciclo-main\Arquivos em VHDL\rom.vhd|
+Z60 !s107 C:\Users\Eduli\OAC-RiscVUniciclo-main\Arquivos em VHDL\rom.vhd|
+!i113 1
+R12
+R13
+Aarc
+R1
+R2
+R3
+Z61 DEx4 work 3 rom 0 22 V4aF:VZ;bfGF92:PQ8jh:2
+l33
+L13
+V_O[:gD4VnH[a3Ya6?6Z?d3
+!s100 2i=8PI;Q3THhIIZ^GG<TO0
+R7
+33
+R30
+!i10b 1
+R31
+R59
+R60
+!i113 1
+R12
+R13
+Etb
+Z62 w1740349130
+R2
+R3
+R4
+Z63 8C:\Users\Eduli\OAC-RiscVUniciclo-main\Arquivos em VHDL\tb.vhd
+Z64 FC:\Users\Eduli\OAC-RiscVUniciclo-main\Arquivos em VHDL\tb.vhd
+l0
+L5
+V<L^zT5:;iRPlCIJkb9HXB1
+!s100 EE2DYK_k>boacbf3<A31U1
+R7
+32
+Z65 !s110 1740358980
+!i10b 1
+Z66 !s108 1740358980.000000
+Z67 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Eduli\OAC-RiscVUniciclo-main\Arquivos em VHDL\tb.vhd|
+Z68 !s107 C:\Users\Eduli\OAC-RiscVUniciclo-main\Arquivos em VHDL\tb.vhd|
+!i113 1
+Z69 o-work work -2002 -explicit
+R13
+Asim
+R1
+Z70 DEx4 work 8 toplevel 0 22 ]6^]`^ofASfQWdFe5<W`b1
+R2
+R3
+DEx4 work 2 tb 0 22 <L^zT5:;iRPlCIJkb9HXB1
+l10
+L8
+VIA1]j_UX6_<ec=D<8<K4I1
+!s100 mPK0idnzAoW]eeOnERzo^0
+R7
+32
+R65
+!i10b 1
+R66
+R67
+R68
+!i113 1
+R69
+R13
+Etestbench
+Z71 w1740364330
+R1
+R2
+R3
+R4
+Z72 8C:\Users\Eduli\OAC-RiscVUniciclo-main\Arquivos em VHDL\testbench.vhd
+Z73 FC:\Users\Eduli\OAC-RiscVUniciclo-main\Arquivos em VHDL\testbench.vhd
+l0
+L7
+VjX6:7J1>TLo^JZe4cEfbi0
+!s100 S8JE>LoAPPIT;1g<OoHb;3
+R7
+33
+R30
+!i10b 1
+R31
+Z74 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:\Users\Eduli\OAC-RiscVUniciclo-main\Arquivos em VHDL\testbench.vhd|
+Z75 !s107 C:\Users\Eduli\OAC-RiscVUniciclo-main\Arquivos em VHDL\testbench.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+Z76 DEx4 work 8 toplevel 0 22 2lUTa3eVz`K<Qb2]MCM6O3
+R1
+R2
+R3
+Z77 DEx4 work 9 testbench 0 22 jX6:7J1>TLo^JZe4cEfbi0
+l24
+L10
+Z78 VgYKgk5>2Z:O3G?kBG[75A2
+Z79 !s100 =CAgYg6BihkZKk8YBP4`82
+R7
+33
+R30
+!i10b 1
+R31
+R74
+R75
+!i113 1
+R12
+R13
+Atb
+R1
+DEx4 work 8 toplevel 0 22 0VWlf0NaYFj2H`YnNV3jc0
+R2
+R3
+DEx4 work 9 testbench 0 22 0Saj_<7@BJX_m:hVLCNL:2
+l16
+L7
+VUfaZjcnj<DznkELV1jH`f0
+!s100 OMZhhIPKFPajzl_12OYZ50
+R7
+32
+!s110 1740348707
+!i10b 1
+!s108 1740348706.000000
+Z80 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Eduli\OAC-RiscVUniciclo-main\Arquivos em VHDL\toplevel.vhd|
+Z81 !s107 C:\Users\Eduli\OAC-RiscVUniciclo-main\Arquivos em VHDL\toplevel.vhd|
+!i113 1
+R69
+R13
+Z82 FC:\Users\Eduli\OAC-RiscVUniciclo-main\Arquivos em VHDL\toplevel.vhd
+w1740348669
+Z83 8C:\Users\Eduli\OAC-RiscVUniciclo-main\Arquivos em VHDL\toplevel.vhd
+Etoplevel
+Z84 w1740363521
+R1
+R2
+R3
+R4
+R83
+R82
+l0
+L6
+V2lUTa3eVz`K<Qb2]MCM6O3
+!s100 g]IZzXgUBQhDoI85gNkZf2
+R7
+33
+R30
+!i10b 1
+R31
+Z85 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:\Users\Eduli\OAC-RiscVUniciclo-main\Arquivos em VHDL\toplevel.vhd|
+R81
+!i113 1
+R12
+R13
+Abehavioral
+R1
+R2
+R3
+R76
+l127
+L18
+V9fd2ORP_6>_SJL^391?n73
+!s100 HP1DCDg4id:fX1b>9h@Yj0
+R7
+33
+R30
+!i10b 1
+R31
+R85
+R81
+!i113 1
+R12
+R13
+Aarch
+R34
+R56
+R22
+Z86 DEx4 work 5 ularv 0 22 I59CGh::73eCjgTkO9^aR1
+R27
+R61
+R51
+R1
+R2
+R3
+R70
+l43
+L11
+VHPkAJXaVzdLnAL[0Ve5Km1
+!s100 ;0z5KWB3G]]`@A^1;EGk]0
+R7
+32
+R65
+!i10b 1
+R66
+R80
+R81
+!i113 1
+R69
+R13
+w1740349108
+Eularv
+R0
+R1
+R2
+R3
+R4
+Z87 8C:\Users\Eduli\OAC-RiscVUniciclo-main\Arquivos em VHDL\ULA.vhd
+Z88 FC:\Users\Eduli\OAC-RiscVUniciclo-main\Arquivos em VHDL\ULA.vhd
+l0
+L6
+VI59CGh::73eCjgTkO9^aR1
+!s100 nD91VFB>T?RLU^nLU@edI0
+R7
+33
+R30
+!i10b 1
+R31
+Z89 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:\Users\Eduli\OAC-RiscVUniciclo-main\Arquivos em VHDL\ULA.vhd|
+Z90 !s107 C:\Users\Eduli\OAC-RiscVUniciclo-main\Arquivos em VHDL\ULA.vhd|
+!i113 1
+R12
+R13
+Aarc_ula
+R1
+R2
+R3
+R86
+l19
+L15
+VCniYQ@h9AAzHHa=Y1jPa81
+!s100 OQC0kg^o<R8lah6AP>M7h3
+R7
+33
+R30
+!i10b 1
+R31
+R89
+R90
+!i113 1
+R12
+R13

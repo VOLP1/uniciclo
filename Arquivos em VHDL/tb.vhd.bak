@@ -1,0 +1,19 @@
+
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity tb is
+end tb;
+
+architecture sim of tb is
+    signal clk : std_logic := '0';
+begin
+    -- Instância do processador
+    processador: entity work.toplevel
+        port map (
+            clk => clk
+        );
+    
+    -- Geração de clock
+    clk <= not clk after 5 ns;
+end architecture;
